@@ -1,11 +1,12 @@
 import './App.css'
-import { Button } from "@/components/ui/button"
+import Dashboard from "@/pages/Dashboard";
+import AdminLayout from "@/components/AdminLayout";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+    <AdminLayout>
+      <Dashboard />
+    </AdminLayout>
   )
 }
 export default App
